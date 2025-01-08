@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step Ahead</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="margin: 0">
+    <div id="header" style="padding: 1rem; background-color: rgb(233, 72, 14)">
+        <h1 id="main-heading" style="margin: 0">Step Ahead - To-Do List</h1>
+        <input id="filter" type="text" placeholder="Search tasks..." />
+    </div>
+    <div>
+        <form>
+            <h2>Add Task</h2>
+            <input type="text" name="task" id="task-to-add" placeholder="Task name" />
+            <input type="text" name="description" id="task-desc" placeholder="Task description" />
+            <button type="submit">Add Task</button>
+        </form>
+        <ul class="tasks">
+            <!-- To-Do Items Will Appear Here -->
+        </ul>
+    </div>
+    <div id="thanks"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
